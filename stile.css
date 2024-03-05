@@ -1,12 +1,12 @@
 * {
-    box-sizing: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 
 .img {
-    background-color: rgb(18, 18, 204);
+    background-color: #4ea0ff;
     width: auto;
     height: 170px;
     overflow: hidden;
@@ -36,6 +36,7 @@
 .corpo{
     font-size: 30px;
     margin-top: 25px;
+    font-size: 18px;
 }
 
 #evidenzia {
@@ -49,10 +50,58 @@
     font-size: larger;
 }
 
-#tab {
+#tab1 {
     background-color: blue;
     color: white;
     font-size: larger;
    
 }
 
+table {
+    text-align: left;
+    border-spacing: 0;
+}
+
+table thead {
+    background-color:blue;
+    color: white;
+}
+
+.odd {
+    background-color: #b1e5f2;
+}
+
+.text {
+    width: 50%;
+     background-color: blue;
+    color: white;
+}
+
+#p1 {
+    margin-top: 30px;
+}
+
+
+footer h2 {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 208px;
+    height: 160px;
+    margin: 10px 0;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#image-monitor {
+    background-image: url(./img/monitor.jpg);
+}
+
+#image-graph {
+    background-image: url(./img/graph.jpg);
+}
